@@ -1,0 +1,14 @@
+# basic information
+title: My Data Analysis Projects
+
+# Sphinx
+sphinx:
+  config:
+    myst_heading_anchors: 4
+    html_js_files:
+      - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    suppress_warnings: ["mystnb.unknown_mime_type"]
+
+# Jupyter notebook execution settings
+execute:
+  timeout: 300  # set timeout to 300 seconds (5 minutes)
