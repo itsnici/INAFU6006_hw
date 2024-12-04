@@ -5,3 +5,6 @@ channels:
 dependencies:
   - jupyter-book=1.*
   - sphinx>=6.2.0
+  - folium
+  - geopandas
+  - cartopy
